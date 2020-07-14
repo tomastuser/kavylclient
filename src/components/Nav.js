@@ -42,7 +42,6 @@ function Nav({ navLinks }) {
           <div className='logoText'>
             <Link to='/'>
               <h1>Kavyl</h1>
-              <p>Lesní školky</p>
             </Link>
           </div>
         </div>

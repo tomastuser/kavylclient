@@ -6,6 +6,11 @@
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'Marianka';
+  src: local('Marianka'), url(./Marianka-Regular.ttf) format('truetype');
+}
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
@@ -123,7 +128,9 @@ tr:nth-child(even) {
   z-index: 50;
 }
 .navLink {
-  color: #666666;
+  font-family: Marianka, serif;
+  color: black;
+  min-width: 9.3vw;
 }
 .navLink p {
   padding-left: 0.6vw;
@@ -154,25 +161,26 @@ tr:nth-child(even) {
 
 .logo {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-content: center;
-  width: 30%;
 }
 .logoText {
+  font-family: Marianka, serif;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
 .logoText a {
   text-decoration: none;
-  font-size: 2.4vh;
-  color: #666666;
+  font-size: 3.3vh;
+  color: #3f3f3f;
 }
 .logoText p {
   font-size: 1.3vh;
 }
 .logoCont {
   height: 9vh;
-  margin-right: 1.8vw;
+  margin-right: 1vw;
 }
 
 .logo img {
@@ -951,6 +959,7 @@ tr:nth-child(even) {
 
   .logoText {
     text-align: center;
+    margin-left: 2vw;
   }
 
   .mainTextCont {
