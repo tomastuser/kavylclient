@@ -64,6 +64,7 @@ main p {
 
 main h1 {
   margin-bottom: 5vh;
+  font-family: Marianka, 'Roboto Condensed', sans-serif;
 }
 
 main h3 {
@@ -76,7 +77,7 @@ main ul {
 
 button {
   border-style: none;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: Marianka, 'Roboto Condensed', sans-serif;
   font-size: 1em;
   line-height: 1.5;
   color: #fdfdec;
@@ -128,7 +129,7 @@ tr:nth-child(even) {
   z-index: 50;
 }
 .navLink {
-  font-family: Marianka, serif;
+  font-family: Marianka, 'Roboto Condensed', sans-serif;
   color: black;
   min-width: 9.3vw;
 }
@@ -166,7 +167,7 @@ tr:nth-child(even) {
   align-content: center;
 }
 .logoText {
-  font-family: Marianka, serif;
+  font-family: Marianka, 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
@@ -385,10 +386,10 @@ tr:nth-child(even) {
 }
 .vitejte {
   position: relative;
+  font-family: Marianka, 'Roboto Condensed', sans-serif;
   color: rgb(253, 253, 236);
   text-align: center;
-  top: 40%;
-
+  top: 35%;
   font-size: 6vh;
 }
 

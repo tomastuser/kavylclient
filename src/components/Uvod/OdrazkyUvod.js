@@ -16,7 +16,7 @@ import {
 function OdrazkyUvod() {
   return (
     <div className='odrazkyUvodContainer'>
-      <h1>Lesní školka Mariánka</h1>
+      <h1>LESNÍ ŠKOLKA MARIÁNKA</h1>
       <ul className='odrazkySloupecA'>
         <li>
           {'  '}dětství v přírodě{' '}
