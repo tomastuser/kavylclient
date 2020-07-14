@@ -71,9 +71,10 @@ function UvodSlider() {
         />
       </Slider>
       <div className='vitejteCont'>
-        <div className='vitejte'>
-          VÍTEJTE NA <br /> STRÁNKÁCH KAVYLU!
-        </div>
+        <h1 className='vitejte'>
+          Vítejte na
+          <br /> stránkách Kavylu!
+        </h1>
       </div>
       <div
         className='sipka'

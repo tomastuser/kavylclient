@@ -39,92 +39,92 @@ import PageNotFound from './components/otherComponents/PageNotFound';
 const App = () => {
   const navLinks = [
     {
-      name: 'O NÁS',
+      name: 'O nás',
       path: '/onas',
       id: '1',
       subNavLinks: [
         {
-          name: 'KDO JSME',
+          name: 'Kdo jsme',
           path: '/onas/kdojsme',
         },
         {
-          name: 'AKTUALITY',
+          name: 'Aktuality',
           path: '/onas/aktuality',
         },
         {
-          name: 'NAŠI LIDÉ',
+          name: 'Naši lidé',
           path: '/onas/nasilide',
         },
         {
-          name: 'PROJEKTY',
+          name: 'Projekty',
           path: '/onas/projekty',
         },
         {
-          name: 'OHLASY',
+          name: 'Ohlasy',
           path: '/onas/ohlasy',
         },
         {
-          name: 'DOKUMENTY',
+          name: 'Dokumenty',
           path: '/onas/dokumenty',
         },
         {
-          name: 'PODPORUJÍ NÁS',
+          name: 'Podporují nás',
           path: '/onas/sponzori',
         },
       ],
     },
     {
-      name: 'LESNÍ ŠKOLKY',
+      name: 'Lesní školky',
       path: '/lesniskolky',
       id: '2',
       subNavLinks: [],
     },
     {
-      name: 'TÁBORY',
+      name: 'Tábory',
       path: '/tabory',
       id: '3',
       subNavLinks: [],
     },
     {
-      name: 'ENVIRO- PROGRAMY',
+      name: 'Enviro- programy',
       path: '/enviroprogramy',
       id: '4',
       subNavLinks: [
         {
-          name: 'AKTUÁLNÍ NABÍDKA',
+          name: 'Aktuální nabídka',
           path: '/enviroprogramy/nabidka',
         },
         {
-          name: 'PRAKTICKÉ INFORMACE',
+          name: 'Praktické informace',
           path: '/enviroprogramy/informace',
         },
       ],
     },
     {
-      name: 'DALŠÍ AKTIVITY',
+      name: 'Další aktivity',
       path: '/dalsiaktivity',
       id: '5',
       subNavLinks: [
         {
-          name: 'PŘEDNÁŠKY A SEMINÁŘE',
+          name: 'Přednášky a semináře',
           path: '/dalsiaktivity/prednasky',
         },
         {
-          name: 'AKCE PRO VEŘEJNOST',
+          name: 'Akce pro veřejnost',
           path: '/dalsiaktivity/akce',
         },
         {
-          name: 'VOLNO- ČASOVÉ AKTIVITY',
+          name: 'Volno- časové aktivity',
           path: '/dalsiaktivity/volnocas',
         },
         {
-          name: 'PRONÁJEM JURTY',
+          name: 'Pronájem jurty',
           path: '/dalsiaktivity/jurta',
         },
       ],
     },
     {
-      name: 'KONTAKT',
+      name: 'Kontakt',
       path: '/kontakt',
       id: '6',
       subNavLinks: [],

@@ -18,9 +18,9 @@ function Uvod() {
         <UvodSlider />
         <Andel />
 
-        <h1>NEJNOVĚJŠÍ AKTUALITY</h1>
+        <h1>Nejnovější aktuality</h1>
         <AktualityPrehled />
-        <Link className='button' to='/aktuality'>
+        <Link className='button' to='/onas/aktuality'>
           Všechny příspěvky
         </Link>
       </div>
