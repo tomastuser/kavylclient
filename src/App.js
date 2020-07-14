@@ -157,6 +157,7 @@ const App = () => {
             <Route exact path='/lesniskolky' component={LesniSkolky} />
             <Route exact path='/tabory' component={Tabory} />
 
+            <Route exact path='/enviroprogramy/' component={Nabidka} />
             <Route exact path='/enviroprogramy/nabidka' component={Nabidka} />
             <Route
               exact
