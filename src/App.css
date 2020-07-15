@@ -173,18 +173,14 @@ tr:nth-child(even) {
 }
 
 .navLinks a:hover {
-  background-color: rgba(240, 240, 224, 0.25);
+  background-color: rgba(216, 216, 200, 0.25);
 }
 
 .caraNav {
-  position: fixed;
-  top: 8.8vh;
-  left: -2vw;
-  z-index: 51;
-}
-
-.caraNav img {
   width: 120%;
+  position: fixed;
+  top: 9.3vh;
+  left: -2vw;
 }
 
 .logo {
