@@ -4,135 +4,69 @@ function Kontakt() {
   return (
     <div className='mainOstatni'>
       <div className='kontakt'>
-        <h1>Kontakty</h1>
+        <h1 className='nazev'>Kontakt</h1>
+        <img
+          className='caraNadpis'
+          src='https://res.cloudinary.com/tomastuser/image/upload/v1594799803/cara_nadpis_wtzq3b.png'
+        ></img>
         <div className='kontaktContD'>
           <div className='kontaktA'>
-            <h3>Kde nás najdete</h3> <p>ulice Samoty, Brno-Líšeň</p>
-            <div className='mapouterD'>
-              <div className='gmapCanvas'>
-                <iframe
-                  id='gmapCanvas'
-                  title='gmapCanvas'
-                  src='https://maps.google.com/maps?q=49.2155000N%2C%2016.6988333E&t=&z=13&ie=UTF8&iwloc=&output=embed'
-                  scrolling='no'
-                  marginHeight={0}
-                  marginWidth={0}
-                  width={400}
-                  height={500}
-                  frameBorder={0}
-                />
-              </div>
-              <style
-                dangerouslySetInnerHTML={{
-                  __html:
-                    '.mapouter{position:relative;text-align:right;height:500px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:400px;}',
-                }}
-              />
-            </div>
+            <h3>Klára Krchňavá</h3>{' '}
+            <ul>
+              <li>tel.: 604 536 796</li>
+              <li>e-mail: klara.krchnava@lesnikavyl.cz</li>
+            </ul>
+            <h3>Obecné informace:</h3> <p>e-mail: info@lesnikavyl.cz</p>
+            <h3>Enviroprogramy:</h3>
+            <p>e-mail: evvo@lesnikavyl.cz</p>
+            <h3>dotace, finance:</h3>
+            <p>e-mail: finance@lesnikavyl.cz</p>
+            <h3>média:</h3>
+            <p>e-mail: pr@lesnikavyl.cz</p>
           </div>
           <div className='kontaktB'>
-            <h3>Lesní mateřská škola Mariánka</h3>
+            <h3>Kavyl z.s.</h3>
             <ul>
-              <li>školská právnická osoba</li>
-              <li>Sídlo: č. p. 137, 664 06 Viničné Šumice</li>
-              <li>IČ: 06 107 591</li>
-              <li>ID datové schránky: 6h4qvbm</li>
-              <li>č. účtu: 77996002/5500 (Raiffeisen bank)</li>
-              <li>info@lesnimarianka.cz</li>
-            </ul>
-            <h3>Pro rodiče</h3>{' '}
-            <p>
-              {' '}
-              Mgr. Klára Taufarová <br />
-              604 536 796
-            </p>
-            <h3>Ředitelka</h3>{' '}
-            <p>
-              {' '}
-              Mgr. Klára Krchňavá <br />
-              777 145 343
-            </p>
-            <h3>Zřizovatel</h3>
-            <ul>
-              <li>Kavyl z.s.</li>
-              <li>Sídlo: č. p. 137, 664 06 Viničné Šumice</li>
+              <li>Sídlo:</li>
+              <li>Viničné Šumice č. p. 137, 664 06 </li>
+              <br />
               <li>IČ: 229 09 320</li>
-              <li>
-                <a href='www.lesnikavyl.cz'>lesnikavyl.cz</a>
-              </li>
+              <br />
+              <li>Číslo účtu: 2601593939/2010</li>
+              <br />
+              <li>Datová schránka: itb74qd</li>
             </ul>
-            <div>
-              <h3>Pracovní příležitosti</h3>
-              <p>
-                Máte-li zájem o spolupráci nebo stáž, kontaktujte ředitelku LMŠ
-                Mariánka.
-              </p>
-            </div>
           </div>
         </div>
+
         <div className='kontaktContM'>
-          <div className='kontaktB'>
-            <h3>Lesní mateřská škola Mariánka</h3>
-            <ul>
-              <li>školská právnická osoba</li>
-              <li>Sídlo: č. p. 137, 664 06 Viničné Šumice</li>
-              <li>IČ: 06 107 591</li>
-              <li>ID datové schránky: 6h4qvbm</li>
-              <li>č. účtu: 77996002/5500 (Raiffeisen bank)</li>
-              <li>info@lesnimarianka.cz</li>
-            </ul>
-            <h3>Pro rodiče</h3>{' '}
-            <p>
-              {' '}
-              Mgr. Klára Taufarová <br />
-              604 536 796
-            </p>
-            <h3>Ředitelka</h3>{' '}
-            <p>
-              {' '}
-              Mgr. Klára Krchňavá <br />
-              777 145 343
-            </p>
-            <h3>Zřizovatel</h3>
-            <ul>
-              <li>Kavyl z.s.</li>
-              <li>Sídlo: č. p. 137, 664 06 Viničné Šumice</li>
-              <li>IČ: 229 09 320</li>
-              <li>
-                <a href='www.lesnikavyl.cz'>lesnikavyl.cz</a>
-              </li>
-            </ul>
-            <div>
-              <h3>Pracovní příležitosti</h3>
-              <p>
-                Máte-li zájem o spolupráci nebo stáž, kontaktujte ředitelku LMŠ
-                Mariánka.
-              </p>
-            </div>
-          </div>
           <div className='kontaktA'>
-            <h3>Kde nás najdete</h3> <p>ulice Samoty, Brno-Líšeň</p>
-            <div className='mapouterM'>
-              <div className='gmap_canvas'>
-                <iframe
-                  id='gmap_canvas'
-                  title='gmap_canvas'
-                  src='https://maps.google.com/maps?q=49.2155000N%2C%2016.6988333E&t=&z=13&ie=UTF8&iwloc=&output=embed'
-                  scrolling='no'
-                  marginHeight={0}
-                  marginWidth={0}
-                  width={320}
-                  height={320}
-                  frameBorder={0}
-                />
-              </div>
-              <style
-                dangerouslySetInnerHTML={{
-                  __html:
-                    '.mapouter{position:relative;text-align:right;height:320px;width:320px;}.gmap_canvas {overflow:hidden;background:none!important;height:320px;width:320px;}',
-                }}
-              />
-            </div>
+            <h3>Klára Krchňavá</h3>{' '}
+            <ul>
+              <li>tel.: 604 536 796</li>
+              <li>e-mail: klara.krchnava@lesnikavyl.cz</li>
+            </ul>
+            <h3>Obecné informace:</h3> <p>e-mail: info@lesnikavyl.cz</p>
+            <h3>Enviroprogramy:</h3>
+            <p>e-mail: evvo@lesnikavyl.cz</p>
+            <h3>dotace, finance:</h3>
+            <p>e-mail: finance@lesnikavyl.cz</p>
+            <h3>média:</h3>
+            <p>e-mail: pr@lesnikavyl.cz</p>
+          </div>
+          <div className='kontaktB'>
+            <h3>Kavyl z.s.</h3>
+            <p>
+              Sídlo:
+              <br />
+              Viničné Šumice č. p. 137, 664 06
+              <br />
+              IČ: 229 09 320
+              <br />
+              Číslo účtu: 2601593939/2010
+              <br />
+              Datová schránka: itb74qd
+            </p>
           </div>
         </div>
       </div>

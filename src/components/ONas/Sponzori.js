@@ -4,7 +4,12 @@ const Sponzori = () => {
   return (
     <div className='mainTextCont'>
       <div className='mainText'>
-        <h1>Podporují nás</h1>
+        <h1 className='nazev'>Podporují nás</h1>
+        <img
+          className='caraNadpis'
+          src='https://res.cloudinary.com/tomastuser/image/upload/v1594799803/cara_nadpis_wtzq3b.png'
+        ></img>
+
         <div className='sponzoriCont'>
           <div>
             <a href='http://www.brno-lisen.cz/'>
@@ -26,15 +31,6 @@ const Sponzori = () => {
             </a>
           </div>
           <div>
-            <a href='http://www.msmt.cz/'>
-              <img
-                style={{ height: '5vw' }}
-                alt=''
-                src='http://www.lesnimarianka.cz/Data/Sites/1/media/logo_msmt.jpg'
-              ></img>
-            </a>
-          </div>
-          <div>
             <a href='https://foundation.avast.com/'>
               <img
                 style={{ height: '5vw' }}
@@ -44,33 +40,29 @@ const Sponzori = () => {
             </a>
           </div>
           <div>
-            <a href='http://www.livebox.cz/'>
-              <img
-                style={{ height: '5vw', padding: '2vh' }}
-                alt=''
-                src='http://www.lesnimarianka.cz/Data/Sites/1/media/logo---livebox.gif'
-              ></img>
-            </a>
-          </div>
-          <div>
-            <a href='http://www.buranteatr.cz/'>
+            <a href='http://www.lidl.cz/'>
               <img
                 style={{ height: '5vw' }}
                 alt=''
-                src='http://www.lesnimarianka.cz/Data/Sites/1/media/logo.png'
+                src='http://www.lesnikavyl.cz/images/partneri/lidl.png'
               ></img>
             </a>
           </div>
           <div>
-            <a href='http://www.toactivity.cz/'>
+            <a href='https://www.kr-jihomoravsky.cz/'>
               <img
                 style={{ height: '5vw', padding: '1vh' }}
                 alt=''
-                src='http://www.lesnimarianka.cz/Data/Sites/1/media/to-activity.png'
+                src='http://www.lesnikavyl.cz/Uploads/PR/loga/logo-JMK.jpg'
               ></img>
             </a>
           </div>
         </div>
+        <p>
+          Děkujeme všem partnerům a sponzorům za jejich příspěvky a vstřícnost.
+          Hluboké poděkování patří také všem rodičům, přátelům a příznivcům za
+          jejich obětavou spolupráci při našich aktivitách.
+        </p>
       </div>
     </div>
   );

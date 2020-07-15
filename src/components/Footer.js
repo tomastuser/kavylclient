@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faBusAlt } from '@fortawesome/free-solid-svg-icons';
 import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 
 const Footer = () => {
@@ -27,7 +26,7 @@ const Footer = () => {
           </a>
         </div>
         <div>
-          <a href='https://www.facebook.com/D%C4%9Btsk%C3%BD-lesn%C3%AD-klub-Mari%C3%A1nka-443991749006997/'>
+          <a href='https://www.facebook.com/spolekKavyl/'>
             <img
               className='fb'
               style={{ width: '90px' }}
@@ -39,23 +38,19 @@ const Footer = () => {
             <li>
               <FontAwesomeIcon icon={faPaperPlane} size='1x' fixedWidth />
               {'  '}
-              info@lesnimarianka.cz
+              info@lesnikavyl.cz
             </li>
             <li>
-              <FontAwesomeIcon icon={faHome} size='1x' fixedWidth /> Brno-Líšeň,
-              ulice Samoty
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faBusAlt} size='1x' fixedWidth /> Bus č.
-              58, zastávka Kubelíkova
+              <FontAwesomeIcon icon={faHome} size='1x' fixedWidth /> Viničné
+              Šumice 137, 664 06
             </li>
             <li>
               <FontAwesomeIcon icon={faPhone} size='1x' fixedWidth /> 777 145
               343
             </li>
             <li>
-              <FontAwesomeIcon icon={faCopyright} size='1x' fixedWidth /> LMŠ
-              Mariánka 2020
+              <FontAwesomeIcon icon={faCopyright} size='1x' fixedWidth /> Kavyl
+              z.s. 2020
             </li>
           </ul>
         </div>
@@ -90,19 +85,19 @@ const Footer = () => {
             <li>
               <FontAwesomeIcon icon={faPaperPlane} size='1x' fixedWidth />
               {'  '}
-              info@lesnimarianka.cz
+              info@lesnikavyl.cz
             </li>
             <li>
-              <FontAwesomeIcon icon={faHome} size='1x' fixedWidth /> Brno-Líšeň,
-              ulice Samoty
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faBusAlt} size='1x' fixedWidth /> Bus č.
-              58, zastávka Kubelíkova
+              <FontAwesomeIcon icon={faHome} size='1x' fixedWidth /> Viničné
+              Šumice 137, 664 06
             </li>
             <li>
               <FontAwesomeIcon icon={faPhone} size='1x' fixedWidth /> 777 145
               343
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCopyright} size='1x' fixedWidth /> Kavyl
+              z.s. 2020
             </li>
           </ul>
         </div>

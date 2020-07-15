@@ -4,7 +4,11 @@ const Tabory = () => {
   return (
     <div className='mainTextCont'>
       <div className='mainText'>
-        <h1>Tábory</h1>
+        <h1 className='nazev'>Tábory</h1>
+        <img
+          className='caraNadpis'
+          src='https://res.cloudinary.com/tomastuser/image/upload/v1594799803/cara_nadpis_wtzq3b.png'
+        ></img>
         <p>
           Každoročně pořádáme prakticky po celé letní prázdniny příměstské
           tábory v zázemí Stromíku v Pozořicích a Mariánky v Líšni. Tábory jsou
@@ -16,8 +20,15 @@ const Tabory = () => {
         </p>
         <h3>Tábory 2020</h3>
         <p>
-          Podrobné informace k letošním táborům najdete zde. Přihlašovat se
-          můžete online - PŘIHLÁŠKA.
+          Podrobné informace k letošním táborům najdete{' '}
+          <a href='https://docs.google.com/document/d/1e0RPhQey1kTwfIeXcUfXJs1w5Ax5ULLBlLWi_uKhGMs/edit?ts=5e208598'>
+            zde.
+          </a>
+          <br />
+          Přihlašovat se můžete online -{' '}
+          <a href='https://docs.google.com/forms/d/e/1FAIpQLSclS51v02DS8Uo3mcNGtgO6i7mWdoe-CidNHxmzBqULWIJYkw/viewform'>
+            PŘIHLÁŠKA.
+          </a>
         </p>
       </div>
     </div>
