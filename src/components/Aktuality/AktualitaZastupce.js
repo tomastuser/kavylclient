@@ -14,8 +14,8 @@ const AktualitaZastupce = ({ aktualita }) => {
         className='aktualitaZastupceText'
         dangerouslySetInnerHTML={{
           __html:
-            aktualita.Text.substr(0, 650) +
-            (aktualita.Text.length > 650 ? ' ...' : ''),
+            aktualita.Text.substr(0, 500) +
+            (aktualita.Text.length > 500 ? ' ...' : ''),
         }}
       ></div>
       <Link className='button' to={`/onas/aktuality/${aktualita.id}`}>
