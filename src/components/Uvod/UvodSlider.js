@@ -17,6 +17,7 @@ function UvodSlider() {
     infinite: true,
     speed: 1300,
     autoplay: true,
+    autoplaySpeed: 8000,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,

@@ -47,11 +47,7 @@ function Nav({ navLinks }) {
           </div>
         </div>
       </div>
-      <img
-        src='https://res.cloudinary.com/tomastuser/image/upload/v1594803389/caraNav_zqzshh.png'
-        alt='caraNav'
-        className='caraNav'
-      />
+
       <div
         className={
           navOpen ? 'navLinks sideNavActive sideNavSpacer' : 'navLinks'
@@ -105,6 +101,11 @@ function Nav({ navLinks }) {
           <div className='line3'></div>
         </div>
       </div>
+      <img
+        src='https://res.cloudinary.com/tomastuser/image/upload/v1594803389/caraNav_zqzshh.png'
+        alt='caraNav'
+        className='caraNav'
+      />
     </div>
   );
 }

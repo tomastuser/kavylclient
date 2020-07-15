@@ -177,10 +177,11 @@ tr:nth-child(even) {
 }
 
 .caraNav {
-  width: 120%;
+  width: 130%;
   position: fixed;
   top: 9.3vh;
   left: -2vw;
+  pointer-events: none;
 }
 
 .logo {
@@ -373,7 +374,10 @@ tr:nth-child(even) {
 .pozadiPrazdne {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 2vh 5vh 2vh 5vh;
-  border-radius: 1vh;
+  border: solid transparent;
+  border-image: url(caraNavB.png) 38 repeat;
+  border-width: 1.3rem;
+  border-image-outset: 5px;
   grid-column: 2/3;
   color: #fdfdec;
   font-size: 1.3em;
@@ -655,12 +659,15 @@ tr:nth-child(even) {
 .aktualitaZastupce {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   text-align: left;
   margin: 1vw;
-  border-style: dotted;
-  border-width: 2px;
-  padding: 4vh;
+  border: solid transparent;
+  border-image: url(caraNav.png) 38 repeat;
+  border-width: 20px;
+  border-image-outset: 3px;
+  padding: 2vh;
+  background-color: #ac9cbb;
 }
 
 .aktualitaZastupceNadpis {
@@ -670,8 +677,12 @@ tr:nth-child(even) {
   cursor: pointer;
   text-decoration: none;
   text-align: left;
-  padding-bottom: 2vh;
+  padding-bottom: 5vh;
   color: #666666;
+}
+
+.aktualitaZastupceNadpis h4 {
+  color: #fdfdec;
 }
 
 .aktualitaZastupceText {
@@ -679,6 +690,7 @@ tr:nth-child(even) {
   padding-bottom: 1vh;
   display: flex;
   flex-direction: column;
+  color: #fdfdec;
 }
 
 .aktualitaZastupce img {
@@ -698,9 +710,15 @@ tr:nth-child(even) {
 
 .aktualitaZastupce .button {
   flex-grow: 0;
+  background-color: #fdfdec;
+  color: darkslategray;
   margin-top: 10px;
   width: 100%;
   font-weight: normal;
+}
+
+.aktualitaZastupce .button:hover {
+  background-color: #decbf0;
 }
 
 .aktualitaZastupce li {

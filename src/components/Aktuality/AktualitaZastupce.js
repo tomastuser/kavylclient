@@ -10,24 +10,15 @@ const AktualitaZastupce = ({ aktualita }) => {
       >
         <h4>{aktualita.Nadpis}</h4>
       </Link>
-      <div className='aktualitaZastupceText'>
-        <div className='aktualitaZastupceImg'>
-          {aktualita.Image === null ? null : (
-            <Link to={`/aktuality/${aktualita.id}`}>
-              <img src={aktualita.Image.url} alt={aktualita.Nadpis} />
-            </Link>
-          )}
-        </div>
-        <div
-          className='aktualitaZastupceTeloTextu'
-          dangerouslySetInnerHTML={{
-            __html:
-              aktualita.Text.substr(0, 500) +
-              (aktualita.Text.length > 500 ? ' ...' : ''),
-          }}
-        ></div>
-      </div>
-      <Link className='button' to={`/aktuality/${aktualita.id}`}>
+      <div
+        className='aktualitaZastupceText'
+        dangerouslySetInnerHTML={{
+          __html:
+            aktualita.Text.substr(0, 650) +
+            (aktualita.Text.length > 650 ? ' ...' : ''),
+        }}
+      ></div>
+      <Link className='button' to={`/onas/aktuality/${aktualita.id}`}>
         Celý příspěvek
       </Link>
     </div>
