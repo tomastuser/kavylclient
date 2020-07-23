@@ -117,8 +117,8 @@ button {
   margin-top: 2vh;
 }
 .button:hover {
-  background-color: grey;
-  color: #fdfdec;
+  background-color: rgb(231, 231, 231);
+  color: black;
 }
 
 table {
@@ -694,27 +694,38 @@ tr:nth-child(even) {
   display: block;
   padding: 0.8rem 1.3rem;
   margin-left: -1px;
-  font-size: 1rem;
+
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  color: black;
+  cursor: pointer;
+  background-color: #decbf0;
+  font-family: Marianka, 'Roboto Condensed', sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  border: solid transparent;
+  border-image: url(caraNav.png) 38 repeat;
+  border-width: 20px;
+  border-image-outset: 3px;
   font-weight: normal;
-  border: 1px solid grey;
-  background-color: darkslategray;
-  color: #fdfdec;
+  margin-top: 2vh;
 }
 
 .pageLink:hover {
-  background-color: grey;
-  color: #fdfdec;
+  background-color: rgb(224, 224, 224);
+  color: black;
 }
 
 .pageLinkActive {
-  background-color: rgb(67, 109, 109);
+  background-color: #c5b2d6;
 }
 
 .pageLinkDisabled {
   cursor: default;
 }
 .pageLinkDisabled:hover {
-  background-color: darkslategray;
+  background-color: rgb(184, 184, 184);
 }
 
 .pageItem:first-child .pageLink {

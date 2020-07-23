@@ -18,7 +18,7 @@ const Pagination = ({ postsPerPage, totalPosts, paginate, currentPage }) => {
             <Link
               className='pageLink'
               onClick={() => paginate(currentPage - 1)}
-              to={`/aktuality/strana/${currentPage - 1}`}
+              to={`/onas/aktuality/strana/${currentPage - 1}`}
             >
               &laquo;
             </Link>
@@ -28,7 +28,7 @@ const Pagination = ({ postsPerPage, totalPosts, paginate, currentPage }) => {
           <li key={number} className='pageItem'>
             <Link
               onClick={() => paginate(number)}
-              to={`/aktuality/strana/${number}`}
+              to={`/onas/aktuality/strana/${number}`}
               className={
                 number === currentPage ? 'pageLink pageLinkActive' : 'pageLink'
               }
@@ -44,7 +44,7 @@ const Pagination = ({ postsPerPage, totalPosts, paginate, currentPage }) => {
             <Link
               className='pageLink'
               onClick={() => paginate(currentPage + 1)}
-              to={`/aktuality/strana/${currentPage + 1}`}
+              to={`/onas/aktuality/strana/${currentPage + 1}`}
             >
               &raquo;
             </Link>
