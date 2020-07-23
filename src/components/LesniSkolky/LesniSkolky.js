@@ -1,14 +1,11 @@
 import React from 'react';
+import Zaklad from '../otherComponents/Zaklad';
 
 const LesniSkolky = () => {
   return (
     <div className='mainTextCont'>
       <div className='mainText'>
-        <h1 className='nazev'>Lesní kluby a lesní mateřské školy</h1>
-        <img
-          className='caraNadpis'
-          src='https://res.cloudinary.com/tomastuser/image/upload/v1594799803/cara_nadpis_wtzq3b.png'
-        ></img>
+        <Zaklad nazev='Lesní kluby a lesní mateřské školy' />
         <p>
           Nabízíme pravidelné celoroční předškolní vzdělávání pro děti ve věku
           od 3 – 7 let ve skupinkách po 15-17 dětech pod vedením dvou pedagogů.

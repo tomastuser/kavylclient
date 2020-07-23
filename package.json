@@ -4,7 +4,7 @@
   "description": "frontend for the web of Kavyl",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -29,6 +29,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.0",
     "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",

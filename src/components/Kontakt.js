@@ -1,14 +1,11 @@
 import React from 'react';
+import Zaklad from './otherComponents/Zaklad';
 
 function Kontakt() {
   return (
-    <div className='mainOstatni'>
-      <div className='kontakt'>
-        <h1 className='nazev'>Kontakt</h1>
-        <img
-          className='caraNadpis'
-          src='https://res.cloudinary.com/tomastuser/image/upload/v1594799803/cara_nadpis_wtzq3b.png'
-        ></img>
+    <div className='mainTextCont'>
+      <div className='mainText'>
+        <Zaklad nazev='Kontakt' />
         <div className='kontaktContD'>
           <div className='kontaktA'>
             <h3>Klára Krchňavá</h3>{' '}

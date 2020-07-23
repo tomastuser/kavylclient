@@ -1,14 +1,11 @@
 import React from 'react';
+import Zaklad from '../otherComponents/Zaklad';
 
 function KdoJsme() {
   return (
     <div className='mainTextCont'>
       <div className='mainText'>
-        <h1 className='nazev'>Kdo jsme</h1>
-        <img
-          className='caraNadpis'
-          src='https://res.cloudinary.com/tomastuser/image/upload/v1594799803/cara_nadpis_wtzq3b.png'
-        ></img>
+        <Zaklad nazev='Kdo jsme' />
         <p>
           Spolek Kavyl z.s. je členem Asociace lesních mateřských škol.
           Provozujeme Dětský lesní klub Stromík v Pozořicích (od roku 2010) a

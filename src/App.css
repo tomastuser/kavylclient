@@ -53,13 +53,15 @@ main a:hover {
 .mainText {
   text-align: justify;
   grid-column: 2/3;
+  z-index: 2;
+  margin-top: 16vh;
 }
 .mainText h1 {
   text-align: center;
 }
 
 .nazev {
-  margin-bottom: 18vh;
+  margin-bottom: 10vh;
 }
 
 main p {
@@ -346,15 +348,16 @@ tr:nth-child(even) {
 }
 
 .caraNadpis {
-  position: absolute;
-  width: 54%;
-  left: 23%;
-  top: 31vh;
+  position: relative;
+  width: 120%;
+  text-align: center;
+  left: -10%;
+  margin-bottom: 10vh;
 }
 
 .uvodAktuality {
   background-color: #fdfdec;
-  padding-bottom: 40px;
+  padding-bottom: 12vh;
 }
 
 .pozadiFixed {
@@ -556,36 +559,29 @@ tr:nth-child(even) {
   padding: 4vh;
 }
 
-.kontakt {
-  padding-top: 3vh;
-}
-
 .kontaktContM {
   display: none;
+  list-style: none;
 }
 
 .kontaktContD {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 8vh;
   text-align: left;
 }
 
-.kontakt h1 {
-  text-align: center;
-}
-
-.kontakt ul {
+.kontaktContD ul {
   list-style: none;
 }
 
 .kontaktA {
-  grid-column: 2/3;
+  grid-column: 1/2;
   text-align: right;
 }
 
 .kontaktB {
-  grid-column: 3/4;
+  grid-column: 2/3;
   text-align: left;
 }
 
@@ -596,6 +592,86 @@ tr:nth-child(even) {
 
 .mapouterM {
   display: none;
+}
+
+.kytka1 {
+  position: absolute;
+  top: 30%;
+  right: -2%;
+  width: 28vw;
+  z-index: 1;
+}
+.kytka2 {
+  position: absolute;
+  top: 12%;
+  left: 35%;
+  width: 20vw;
+  z-index: 1;
+}
+
+.kytka3 {
+  position: absolute;
+  top: 56%;
+  left: 1%;
+  width: 24vw;
+  z-index: 1;
+}
+.kvitek1 {
+  position: absolute;
+
+  top: 12%;
+  left: 35%;
+  width: 10vw;
+  z-index: 1;
+}
+
+.drevo1 {
+  position: absolute;
+  top: 75%;
+  right: -2%;
+  width: 18vw;
+  z-index: 1;
+}
+.lisejnik1 {
+  position: absolute;
+  transform: rotate(-20deg);
+  top: 23%;
+  left: -5%;
+  width: 25vw;
+  z-index: 1;
+}
+
+.jetel1 {
+  position: absolute;
+  top: 65%;
+  left: -2%;
+  width: 15vw;
+  z-index: 1;
+}
+.siska1 {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 9vw;
+  z-index: 1;
+}
+.kvitek2 {
+  position: absolute;
+  top: 65%;
+  right: 5%;
+  width: 15vw;
+  z-index: 1;
+}
+.kvitky {
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  width: 15vw;
+  z-index: 1;
+}
+
+.pointerNone {
+  pointer-events: none;
 }
 
 /* AKTUALITY */
@@ -659,7 +735,7 @@ tr:nth-child(even) {
   padding-left: 8vw;
   padding-right: 8vw;
   grid-gap: 4vw;
-  margin-bottom: 4vh;
+  margin-bottom: 8vh;
 }
 
 .aktualitaZastupce {

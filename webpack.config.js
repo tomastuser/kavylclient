@@ -1,13 +1,22 @@
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   entry: './src/index.js',
   mode: 'development',
   output: {
-    path: __dirname,
+    path: path.join(__dirname, '/build'),
     filename: 'index.js',
+    publicPath: '/',
   },
 
   node: {
     fs: 'empty',
+  },
+
+  devServer: {
+    port: 3000,
+    historyApiFallback: true,
   },
 
   module: {
@@ -44,4 +53,9 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: 'index.html',
+    }),
+  ],
 };

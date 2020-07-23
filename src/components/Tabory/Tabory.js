@@ -1,14 +1,11 @@
 import React from 'react';
+import Zaklad from '../otherComponents/Zaklad';
 
 const Tabory = () => {
   return (
     <div className='mainTextCont'>
       <div className='mainText'>
-        <h1 className='nazev'>Tábory</h1>
-        <img
-          className='caraNadpis'
-          src='https://res.cloudinary.com/tomastuser/image/upload/v1594799803/cara_nadpis_wtzq3b.png'
-        ></img>
+        <Zaklad nazev='Tábory' />
         <p>
           Každoročně pořádáme prakticky po celé letní prázdniny příměstské
           tábory v zázemí Stromíku v Pozořicích a Mariánky v Líšni. Tábory jsou

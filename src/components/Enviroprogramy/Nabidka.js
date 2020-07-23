@@ -1,10 +1,11 @@
 import React from 'react';
+import Zaklad from '../otherComponents/Zaklad';
 
 const Nabidka = () => {
   return (
     <div className='mainTextCont'>
       <div className='mainText'>
-        <h1>Aktivity Kavylu</h1>
+        <Zaklad nazev='Aktivity Kavylu' />
         <p>
           {' '}
           V zázemí LMŠ Mariánka pořádá spolek Kavyl, její zřizovatel,
