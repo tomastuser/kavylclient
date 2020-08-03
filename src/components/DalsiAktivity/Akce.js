@@ -1,25 +1,30 @@
 import React from 'react';
+import Zaklad from '../otherComponents/Zaklad';
 
 const Akce = () => {
   return (
     <div className='mainTextCont'>
       <div className='mainText'>
-        <h1>Kroužky</h1>
-        <h3>Zvoneček</h3>
+        <Zaklad nazev='Akce pro veřejnost' />
+        <h3>
+          <strong>Rodinné divadelní odpoledne</strong>&nbsp;
+        </h3>
+        <p>Oblíbená akce pro veřejnost v pozořické hájovně</p>
+        <h3>
+          <strong>Den lesních mateřských škol</strong>&nbsp;
+        </h3>
         <p>
-          Na jaře, na podzim a v zimě probíhá cyklus setkání určených pro děti
-          do 3 let v doprovodu rodiče nebo jiné blízké osoby. Od malička děti
-          poznávají přírodu hravou formou - písničky, básničky, tvoření, hry,
-          procházky. Celý program probíhá na prostorné zahradě a v blízkém lese
-          pod vedením lektora z lesního klubu.
+          Každoročně se účastníme celorepublikové akce 22. června a otvíráme své
+          branky a vrátka pro veřejnost
         </p>
-        <h3>Jaro 2020</h3>
-        <p>Přihlašovací formulář&nbsp;</p>
-        <p>
-          <a href='https://docs.google.com/forms/d/e/1FAIpQLSeaFQu_9xiJvqUEKK6Xk58Z_ylwIf2PFjxp5WD7HhioeL0Ipg/viewform\'>
-            zde.
-          </a>
-        </p>
+        <h3>
+          <strong>Slavnosti</strong>&nbsp;
+        </h3>
+        <p>Pravidelně pořádáme masopustní reje a další oslavy tradic</p>
+        <h3>
+          <strong>Jarní úklid lesa</strong>&nbsp;
+        </h3>
+        <p>Každoročně čistíme náš blízký les</p>
       </div>
     </div>
   );

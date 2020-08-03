@@ -1,17 +1,13 @@
 import React from 'react';
+import Zaklad from '../otherComponents/Zaklad';
 
 const Sponzori = () => {
   return (
     <div className='mainTextCont'>
       <div className='mainText'>
-        <h1 className='nazev'>Podporují nás</h1>
-        <img
-          className='caraNadpis'
-          src='https://res.cloudinary.com/tomastuser/image/upload/v1594799803/cara_nadpis_wtzq3b.png'
-        ></img>
-
+        <Zaklad nazev='Podporují nás' />
         <div className='sponzoriCont'>
-          <div>
+          <div style={{ textAlign: 'center' }}>
             <a href='http://www.brno-lisen.cz/'>
               <img
                 style={{ height: '5vw' }}
@@ -54,6 +50,24 @@ const Sponzori = () => {
                 style={{ height: '5vw', padding: '1vh' }}
                 alt=''
                 src='http://www.lesnikavyl.cz/Uploads/PR/loga/logo-JMK.jpg'
+              ></img>
+            </a>
+          </div>
+          <div>
+            <a href='http://www.sita.cz/'>
+              <img
+                style={{ height: '5vw' }}
+                alt=''
+                src='http://www.lesnikavyl.cz/images/partneri/SUEZ.jpg'
+              ></img>
+            </a>
+          </div>
+          <div>
+            <a href='http://www.nalontu.cz/'>
+              <img
+                style={{ height: '5vw', padding: '2vh' }}
+                alt=''
+                src='http://www.lesnikavyl.cz/images/partneri/na_lontu.jpg'
               ></img>
             </a>
           </div>

@@ -1,86 +1,45 @@
 import React from 'react';
+import Zaklad from '../otherComponents/Zaklad';
 
 const Ohlasy = () => {
   return (
     <div className='mainTextCont'>
       <div className='mainText'>
-        <h1>Program</h1>
+        <Zaklad nazev='Ohlasy' />
+        <h3>Stromík v ČT</h3>
         <p>
-          Převážná většina programu v LMŠ Mariánka probíhá celoročně a za
-          každého počasí venku, tzn. na zahradě s ovocnými stromy v našem zázemí
-          a v blízkém smíšeném lese. Les vnímáme jako přirozené, tj. člověkem (a
-          pedagogem) nepřipravené prostředí, které samo o sobě nabízí prostor
-          pro kreativitu, rytmus a harmonii. V lese člověk snadno a přirozeně
-          vnímá střídání ročních období, počasí, rytmus přirozeného světla a
-          kontakt s přírodními živly a to, jaký to má vliv na nás samotné. Proto
-          jsme náš program uzpůsobili koloběhu roku a tradicím. Každoročně se
-          věnujeme slavnostem inspirovaným Waldorfskou pedagogikou, které s
-          každým novým rokem s dětmi prožíváme a znovuvytváříme podle aktuálních
-          potřeb skupiny dětí i dospělých.
+          Příspěvek o životě v lesních školkách v České televizi. Můžete si
+          přehrát{' '}
+          <a href='https://www.ceskatelevize.cz/porady/10122427178-udalosti-v-regionech-brno/319281381991218-udalosti-v-regionech/video/739957?fbclid=IwAR0g6pTD7oVg3Nab54-GOpD6hVJk-SHmFmL2df4uX75jbw-o_wFIirsTGEM'>
+            zde
+          </a>
+          .
         </p>
-        <h3>Harmonogram dne:</h3>
-        <table className='harmonogram'>
-          <tr>
-            <td>7:30 - 8:30</td>
-            <td>příjezd dětí s rodiči, převzetí dětí</td>
-          </tr>
-          <tr>
-            <td>8:45 – 9:00</td>
-            <td>
-              přivítání s dětmi, ranní diskuzní kruh, seznámení s programem
-            </td>
-          </tr>
-          <tr>
-            <td>9:00 – 10:00</td>
-            <td>cesta do lesa, dopolední řízená činnost v lese</td>
-          </tr>
-          <tr>
-            <td>10:00 – 10:30</td>
-            <td>dopolední svačina dětí, volná hra dětí</td>
-          </tr>
-          <tr>
-            <td>10:30 – 11:30</td>
-            <td>
-              společná hra dětí v lese dle zájmu dětí, pedagog je dětem
-              průvodcem
-            </td>
-          </tr>
-          <tr>
-            <td>11:30 – 12:00</td>
-            <td>zpáteční cesta do zázemí, příchod do zázemí</td>
-          </tr>
-          <tr>
-            <td>12:00 – 12:45</td>
-            <td>PŘESTÁVKA NA OBĚD</td>
-          </tr>
-          <tr>
-            <td>12:45 – 13:30</td>
-            <td>polední odpočinek, klidová činnost</td>
-          </tr>
-          <tr>
-            <td>13:30 – 15:30</td>
-            <td>
-              odpolední činnost a volná hra dětí na zahradě, svačina dle potřeb
-              dětí
-            </td>
-          </tr>
-          <tr>
-            <td>15:30 – 16:00</td>
-            <td>předání dětí rodičům</td>
-          </tr>
-        </table>
-        <h3>Kroužky a předškolní příprava</h3>
+        <h3>Povídání maminky o Stromíku</h3>
         <p>
-          Organizované aktivity zahrnují terapeutické bubnování, animoterapii,
-          hru s výtvarným materiálem, přírodovědu, práci s ostrými nástroji,
-          vyprávění příběhů a program s anglicky mluvícími rodilými mluvčími.
-          <br />
-          Předškolní přípravě se věnujeme podle potřeb dítěte v rámci aktivit
-          zařazených do běžného chodu dne. Zároveň probíhá také soustředěná
-          příprava - děti zpracovávají předškolácké listy, rozvíjíme cíleně
-          grafomotoriku, předmatematické představy, sluchové vnímání, s dětmi se
-          logopedicky pracuje. Absolventi naší školky úspěšně zvládají přechod
-          na základní školu.
+          <a href='https://lesycr.cz/casopis-clanek/lesni-skolce-nevyrustaji-stromky/'>
+            V lese nevyrůstají pouze stromky.
+          </a>{' '}
+          Povídání maminky o životě ve Stromíku, které vyšlo v časopise Lesů ČR.
+        </p>
+        <h3>Masopust</h3>
+        <p>
+          <a href='http://www.brno-lisen.cz/vesele-hratky-lesnich-skritku-kvitka-a-marianky/t5409'>
+            Reportáž z masopustu
+          </a>{' '}
+          Kvítku i Mariánky.
+        </p>
+        <h3>Stromík v ČT</h3>
+        <p>
+          Video o DLK Stromík v rámci pořadu ČT Týden v regionech - sekvence{' '}
+          <a href='http://www.ceskatelevize.cz/ivysilani/1181680258-tyden-v-regionech-brno/316281381890227-tyden-v-regionech/obsah/455671-tri-minuty-z'>
+            o Stromíku je na 5:53 min.
+          </a>
+        </p>
+        <h3>Jak se žije v lesní školce v Pozořicích</h3>
+        <p>
+          Jak se žije v lesní školce v létě v zimě, jak se v Pozořicích společně
+          slaví Ostatky, o tom všem se dočtete v Pozořickém zpravodaji.
         </p>
       </div>
     </div>

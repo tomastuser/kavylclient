@@ -1,15 +1,12 @@
 import React from 'react';
+import Zaklad from '../otherComponents/Zaklad';
 
 const Jurta = () => {
   return (
     <div className='mainTextCont'>
       <div className='mainText'>
-        <h1>Aktivity Kavylu</h1>
-        <p>
-          {' '}
-          V zázemí LMŠ Mariánka pořádá spolek Kavyl, její zřizovatel,
-          volnočasové kroužky a letní příměstské tábory, v Líšni pak přednášky.
-        </p>
+        <Zaklad nazev='Pronájem Jurty' />
+        <p> Je možné pronajmout si Jurtu.</p>
       </div>
     </div>
   );

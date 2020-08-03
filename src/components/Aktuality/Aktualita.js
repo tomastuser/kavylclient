@@ -25,11 +25,6 @@ const Aktualita = (props) => {
           <div className='aktualita'>
             <h2 className='aktualitaNadpis'>{aktualita.Nadpis}</h2>
             <div className='aktualitaTelo'>
-              {aktualita.Image === null ? null : (
-                <Link className='aktualitaImg' to={`/images/${aktualita.id}`}>
-                  <img src={img.url} alt={aktualita.Nadpis} />
-                </Link>
-              )}
               <div
                 dangerouslySetInnerHTML={{ __html: aktualita.Text }}
                 className='aktualitaText'

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import AktualityPrehled from './Aktuality/AktualityPrehled';
 import OdrazkyUvod from './Uvod/OdrazkyUvod';
-import UvodSlider from './Uvod/UvodSlider';
 import Andel from './Uvod/Andel';
 
 function Uvod() {
@@ -15,7 +14,6 @@ function Uvod() {
         />
       </div>
       <div className='uvodAktuality'>
-        <UvodSlider />
         <Andel />
 
         <h1>Nejnovější aktuality</h1>

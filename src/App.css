@@ -74,6 +74,12 @@ main h1 {
   text-transform: uppercase;
   color: black;
 }
+main h2 {
+  margin-bottom: 5vh;
+  font-family: Marianka, 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
 
 main h3 {
   margin-bottom: 1vh;
@@ -90,6 +96,7 @@ main h4 {
 
 main ul {
   margin-bottom: 2vh;
+  margin-left: 3vw;
 }
 
 button {
@@ -324,8 +331,10 @@ tr:nth-child(even) {
   align-items: center;
   padding: 5vh;
   padding-top: 8vh;
-  border-top-style: dotted;
-  border-width: 1px;
+  border-top: solid transparent;
+  border-image: url(caraNav.png) 38 repeat;
+  border-width: 20px;
+  border-image-outset: 3px;
 }
 
 .Footer ul {
@@ -458,7 +467,7 @@ tr:nth-child(even) {
 .andelCont {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  margin-top: 8vh;
+  padding-top: 8vh;
 }
 .andel {
   grid-column: 2/3;
@@ -583,6 +592,10 @@ tr:nth-child(even) {
 .kontaktB {
   grid-column: 2/3;
   text-align: left;
+}
+
+.kontaktB ul {
+  margin-left: 0;
 }
 
 .mapouterD {
@@ -833,8 +846,11 @@ tr:nth-child(even) {
 
 .aktualita {
   width: 50%;
-  border-style: dotted;
-  border-width: 2px;
+  border: solid transparent;
+  border-image: url(caraNav.png) 38 repeat;
+  border-width: 20px;
+  border-image-outset: 3px;
+  background-color: #decbf0;
   text-align: left;
   padding: 4vh;
   overflow: auto;
@@ -845,15 +861,17 @@ tr:nth-child(even) {
 .aktualitaNadpis {
   text-transform: uppercase;
   text-align: left;
-  padding-bottom: 4vh;
 }
 .aktualitaImg {
   display: flex;
   justify-content: center;
+  margin-bottom: 5vh;
 }
 
 .aktualitaText {
   padding-top: 2vh;
+  margin-bottom: 5vh;
+  color: black;
 }
 
 .aktualita img {
@@ -865,9 +883,15 @@ tr:nth-child(even) {
   opacity: 0.5;
 }
 
+.aktualita .button:hover {
+  background-color: #f2e4ff;
+}
 .aktualita .button {
+  flex-grow: 0;
+  background-color: #fdfdec;
+  color: black;
+  margin-top: 10px;
   width: 100%;
-  margin-top: 3vh;
   font-weight: normal;
 }
 

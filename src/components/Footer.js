@@ -14,7 +14,7 @@ const Footer = () => {
             <img
               src='https://res.cloudinary.com/tomastuser/image/upload/v1585867492/qdc5glp7boyre6m2sd6p.png'
               alt=''
-            ></img>
+            />
           </a>
         </div>
         <div>
@@ -22,7 +22,7 @@ const Footer = () => {
             <img
               src='http://www.lesnimarianka.cz/Data/Sites/1/media/alms_logo_transparentni.gif'
               alt=''
-            ></img>
+            />
           </a>
         </div>
         <div>
@@ -32,7 +32,7 @@ const Footer = () => {
               style={{ width: '90px' }}
               alt=''
               src='https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg'
-            ></img>
+            />
           </a>
           <ul>
             <li>
