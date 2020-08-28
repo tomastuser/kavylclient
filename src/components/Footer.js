@@ -1,136 +1,134 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faCopyright } from '@fortawesome/free-regular-svg-icons';
+import {
+  faPaperPlane,
+  faHome,
+  faPhone,
+} from '@fortawesome/free-solid-svg-icons';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import girlanda from '../public/girl2.png';
 
 const Footer = () => {
   return (
     <div className='Footer'>
+      <div className='girlanda'>
+        <img src={girlanda} alt='girlanda' />
+      </div>
       <div className='FooterD'>
+        <div>
+          <a href='http://www.lesnims.cz/'>
+            <img src='https://www.lesnikavyl.cz/images/loga/alms.gif' alt='' />
+          </a>
+        </div>
         <div>
           <a href='https://www.lesnims.cz/lesni-ms/standardy-kvality.html'>
             <img
-              src='https://res.cloudinary.com/tomastuser/image/upload/v1585867492/qdc5glp7boyre6m2sd6p.png'
+              src='https://www.lesnikavyl.cz/images/loga/certifskolka.png'
               alt=''
             />
           </a>
         </div>
-        <div>
-          <a href='http://www.lesnims.cz/'>
-            <img
-              src='http://www.lesnimarianka.cz/Data/Sites/1/media/alms_logo_transparentni.gif'
-              alt=''
-            />
-          </a>
-        </div>
-        <div>
-          <a href='https://www.facebook.com/spolekKavyl/'>
-            <img
-              className='fb'
-              style={{ width: '90px' }}
-              alt=''
-              src='https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg'
-            />
-          </a>
+        <div className='footerInfo'>
           <ul>
             <li>
-              <FontAwesomeIcon icon={faPaperPlane} size='1x' fixedWidth />
-              {'  '}
-              info@lesnikavyl.cz
+              <h4>
+                <FontAwesomeIcon icon={faPaperPlane} size='1x' fixedWidth />
+                &nbsp; info@lesnikavyl.cz
+              </h4>
             </li>
             <li>
-              <FontAwesomeIcon icon={faHome} size='1x' fixedWidth /> Viničné
-              Šumice 137, 664 06
+              <h4>
+                <FontAwesomeIcon icon={faHome} size='1x' fixedWidth />
+                &nbsp; Hostěnická 626,
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pozořice
+              </h4>
             </li>
             <li>
-              <FontAwesomeIcon icon={faPhone} size='1x' fixedWidth /> 777 145
-              343
+              <h4>
+                <FontAwesomeIcon icon={faPhone} size='1x' fixedWidth />
+                &nbsp;777 145 343
+              </h4>
             </li>
             <li>
-              <FontAwesomeIcon icon={faCopyright} size='1x' fixedWidth /> Kavyl
-              z.s. 2020
+              <h4>
+                <a href='https://www.facebook.com/spolekKavyl/'>
+                  <FontAwesomeIcon icon={faFacebookF} size='1x' fixedWidth />
+                  &nbsp; spolekKavyl
+                </a>
+              </h4>
             </li>
           </ul>
         </div>
         <div>
-          <a href='https://www.darujme.cz/projekt/1200844'>
-            <img
-              src='http://www.lesnimarianka.cz/Data/Sites/1/media/darujme_logo.png'
-              alt=''
-            ></img>
+          <a href='http://bit.ly/Podporuji-Kavyl'>
+            <img src='https://www.lesnikavyl.cz/images/loga/givt.jpg' alt='' />
           </a>
         </div>
         <div>
-          <a href='http://bit.ly/Podporuji-Kavyl'>
+          <a href='https://www.darujme.cz/projekt/1200844'>
             <img
-              src='http://lesnikvitek.cz/Data/Sites/1/media/uvodni/2017/givt_box_211_211.jpg'
+              src='https://www.lesnikavyl.cz/images/loga/darujme.png'
               alt=''
-            ></img>
+            />
           </a>
         </div>
       </div>
       <div className='FooterM'>
-        <div>
-          <a href='https://www.facebook.com/D%C4%9Btsk%C3%BD-lesn%C3%AD-klub-Mari%C3%A1nka-443991749006997/'>
-            <img
-              className='fb'
-              style={{ width: '90px' }}
-              alt=''
-              src='https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg'
-            ></img>
-          </a>
+        <div className='footerInfo'>
           <ul>
             <li>
-              <FontAwesomeIcon icon={faPaperPlane} size='1x' fixedWidth />
-              {'  '}
-              info@lesnikavyl.cz
+              <h4>
+                <FontAwesomeIcon icon={faPaperPlane} size='1x' fixedWidth />
+                &nbsp; info@lesnikavyl.cz
+              </h4>
             </li>
             <li>
-              <FontAwesomeIcon icon={faHome} size='1x' fixedWidth /> Viničné
-              Šumice 137, 664 06
+              <h4>
+                <FontAwesomeIcon icon={faHome} size='1x' fixedWidth />
+                &nbsp; Hostěnická 626, Pozořice
+              </h4>
             </li>
             <li>
-              <FontAwesomeIcon icon={faPhone} size='1x' fixedWidth /> 777 145
-              343
+              <h4>
+                <FontAwesomeIcon icon={faPhone} size='1x' fixedWidth />
+                &nbsp;777 145 343
+              </h4>
             </li>
             <li>
-              <FontAwesomeIcon icon={faCopyright} size='1x' fixedWidth /> Kavyl
-              z.s. 2020
+              <h4>
+                <a href='https://www.facebook.com/spolekKavyl/'>
+                  <FontAwesomeIcon icon={faFacebookF} size='1x' fixedWidth />
+                  &nbsp; spolekKavyl
+                </a>
+              </h4>
             </li>
           </ul>
         </div>
         <div>
           <a href='https://www.lesnims.cz/lesni-ms/standardy-kvality.html'>
             <img
-              src='https://res.cloudinary.com/tomastuser/image/upload/v1585867492/qdc5glp7boyre6m2sd6p.png'
+              src='https://www.lesnikavyl.cz/images/loga/certifskolka.png'
               alt=''
-            ></img>
+            />
           </a>
         </div>
         <div>
           <a href='http://www.lesnims.cz/'>
-            <img
-              src='http://www.lesnimarianka.cz/Data/Sites/1/media/alms_logo_transparentni.gif'
-              alt=''
-            ></img>
+            <img src='https://www.lesnikavyl.cz/images/loga/alms.gif' alt='' />
           </a>
         </div>
         <div>
           <a href='https://www.darujme.cz/projekt/1200844'>
             <img
-              src='http://www.lesnimarianka.cz/Data/Sites/1/media/darujme_logo.png'
+              src='https://www.lesnikavyl.cz/images/loga/darujme.png'
               alt=''
-            ></img>
+            />
           </a>
         </div>
         <div>
           <a href='http://bit.ly/Podporuji-Kavyl'>
-            <img
-              src='http://lesnikvitek.cz/Data/Sites/1/media/uvodni/2017/givt_box_211_211.jpg'
-              alt=''
-            ></img>
+            <img src='https://www.lesnikavyl.cz/images/loga/givt.jpg' alt='' />
           </a>
         </div>
       </div>

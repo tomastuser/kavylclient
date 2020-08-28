@@ -1,21 +1,30 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import sipka from '../public/sipka.png';
 
 const Footer2 = () => {
+  const d = new Date();
   return (
-    <div className='Footer2'>
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-        }}
-      >
-        <h3 className='up' onClick={() => window.scrollTo(0, 0)}>
-          <FontAwesomeIcon icon={faArrowUp} size='1x' fixedWidth />
-        </h3>
+    <>
+      <div className='Footer2'>
+        <div className='copyright'>
+          <h3>
+            ©&nbsp;Kavyl z.s.
+            {d.getFullYear()}
+          </h3>
+        </div>
+        <div className='upCont'>
+          <div
+            className='up'
+            onClick={() => window.scrollTo(0, 0)}
+            onKeyDown={() => window.scrollTo(0, 0)}
+            role='button'
+            tabIndex={0}
+          >
+            <img alt='sipka' src={sipka} />
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,2 +1,4 @@
 node_modules
-src/pismo material/
+build
+src/images
+src/public
